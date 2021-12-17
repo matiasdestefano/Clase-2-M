@@ -24,7 +24,5 @@ func calcularPromedio(notas ...float32) (float32, error) {
 		}
 		sumaDeNotas += nota
 	}
-
 	return (sumaDeNotas / cantidadDeNotas), nil
-
 }
